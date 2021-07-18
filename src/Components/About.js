@@ -24,7 +24,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Aditi Bhagwat Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -38,12 +38,8 @@ class About extends Component {
                     <span>{name}</span>
                     <br />
                     <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
+                      {city}, {state}, {zip}
                     </span>
-                    <br />
-                    <span>{phone}</span>
                     <br />
                     <span>{email}</span>
                   </p>
