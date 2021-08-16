@@ -154,6 +154,7 @@ header .scrolldown a:hover {
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
   display: none;
+  background-color: #ffd523;
 }
 
 ul#nav {
@@ -312,6 +313,7 @@ ul#nav li.current a {
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+  color: #1abc9c;
 }
 
 /*----------------------------------------------*/
@@ -480,10 +482,23 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;
   color: #0f0f0f;
+}
+
+.portfolio-item .item-wrap h5 {
+  color: #595260;
+  font-size: medium;
+  padding-top: 10px;
+}
+
+.portfolio-item .item-wrap p {
+  color: #b2b1b9;
+  font-size: medium;
+  padding-top: 10px;
 }
 
 /* overlay */
